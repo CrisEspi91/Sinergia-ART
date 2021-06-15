@@ -39,7 +39,7 @@ header nav{
 }
 
 .parallax{
-padding-top: 100px;
+padding-top: 120px;
 
 	 /* The image used */
 
@@ -47,7 +47,7 @@ padding-top: 100px;
 
   /* Set a specific height */
 
-  height: 250px;
+  height: 300px;
 
   /* Create the parallax scrolling effect */
 
