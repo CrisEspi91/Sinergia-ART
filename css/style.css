@@ -1,0 +1,449 @@
+
+
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+	
+	
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.quitaPadding{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+header nav{
+	background-image: linear-gradient(to right, #0b839c, white);
+	font-family: oswald;
+	font-size: 20px;
+}
+
+
+
+
+.navbarNav{
+	justify-content: flex-end;
+	margin-right: 70px;
+}
+
+.logoCompleto{
+	width: 170px;
+	margin-left: 20px;
+	display: inline;
+}
+
+.parallax{
+padding-top: 100px;
+
+	 /* The image used */
+
+  background-image: url("../assets/img/Estudio.jpg");
+
+  /* Set a specific height */
+
+  height: 250px;
+
+  /* Create the parallax scrolling effect */
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+.tituloParallax{
+	font-family: oswald;
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	background-color: rgba(50,200,255,0.8);
+}
+
+
+.tituloCreemos{
+	
+	font-size: 30px;
+	background-color: #d6d6d6;
+	padding: 5px 0px;
+	text-align: center;
+}
+.creemosEn{
+	font-family: montserrat;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.listaCreemos{
+	list-style-position: inside; 
+	text-align:center;
+	line-height: 1.8;
+	margin-top: 30px;
+
+
+}
+
+.paraQueTitulo{
+	text-align: center;
+	background-color: #0b839c;
+	color: #fff;
+	padding: 5px 0px;
+	margin-top: 20px;
+	width: 100%;
+
+}
+
+.paraQueSubtitulo{
+	text-align: center;
+	padding: 0 20px;
+}
+.paraQueP{
+	text-align: center;
+	font-family: montserrat;
+	font-size: 20px;
+	padding: 0 30px;
+}
+.iconosCoaching{
+	font-size: 50px;
+	text-align: center;
+	color: #0b839c;
+}
+
+.cursosMasRecientes{
+	text-align: center;
+	background-color: #0b839c;
+	color: #fff;
+	padding: 5px 0px;
+}
+
+
+.tamanoCarousel{
+	width: 500px;
+
+	margin: auto;
+}
+
+
+.conoce{
+	font-family: montserrat;
+	font-weight: 1000;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	background-color: #0b839c;
+	padding: 6px 0px;
+}
+
+.botonConoce{
+	background-color: #2f1a3b;
+	border: 2px solid white;
+	font-family: montserrat;
+	font-weight: 1000;
+	font-size: 20px;
+	width:80px;
+	border-radius: 100px;
+	transition-duration: 0.5s;
+}
+
+.botonConoce:hover{
+ 	background-color: #7bbad4;
+ 	border: 2px solid black;
+ 	color: black;
+
+}
+
+.tituloMision{
+	margin: 0;
+}
+.fondoMision{
+	background-color:#e1fcf3;
+	margin: 0;
+}
+.listaMision{
+	padding: 20px 30px;
+	
+}
+
+.liMision{
+	font-weight: 900;
+	padding: 0 20px;
+}
+
+.programasAval{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.avales{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.imgAvales{
+	width: 350px;
+	align-items: center;
+	margin: 20px 20px;
+
+}
+
+footer{
+	background-image: linear-gradient(#1e0d3d, black);
+	justify-content: space-between;
+
+}
+
+.botonFooter{
+	color: white;
+	border: solid 2px white;
+	border-radius: 40px;
+	transition-duration: 0.5s;
+}
+
+.botonFooter:hover{
+	background-color: #0b839c ;
+}
+.copy{
+	color: #9e9e9e;
+}
+
+.linkCopy{
+	color:#9486ad ;
+}
+
+.linkCopy:hover{
+	text-decoration: none;
+	color: white;
+}
+
+h5{
+	color: white;
+}
+
+h6{
+	color: white;
+}
+
+
+.tituloPaginas{
+	background-color: rgba(50,200,255,0.2);
+	padding: 5px 30px;
+	color:#1e0d3d;
+	font-weight: 100;
+	font-size: 35px;
+
+}
+
+/* Página CURSOS */
+.formacionCoaching{
+	background-color: lightgray;
+
+}
+.carta{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 10px 0;
+
+}
+.carta__cuerpo{
+	background-color:#e7f9fd;
+	
+}
+
+.carta__titulo{
+	font-family: montserrat;
+	color: black;
+	font-weight: 1000;
+}
+
+.carta__p{
+	font-family: montserrat;
+	font-weight: 600;
+}
+
+.carta__texto{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: auto;
+
+}
+.carta__boton{
+	background-color: #1e0d3d;
+	border: none;
+}
+.carta__boton:hover{
+	background-color:#0b839c ;
+}
+
+/* Página CONTACTO */
+.contact{
+	margin: 30px;
+	background-color: #f0f0f0;
+	padding: 10px;
+	
+}
+
+.contact__img{
+	width:350px;
+	
+}
+.contact__boton{
+	margin: 10px;
+	background-color: #1e0d3d;
+	font-weight: 100;
+	padding: 8px;
+	font-family: oswald;
+	letter-spacing: 2px;
+}
+
+
+.contact__box{
+	border: solid 2px #1e0d3d;
+	border-radius: 10px;
+	margin-top: 15px;
+
+
+}
+
+.contact__check{
+	margin-top: 15px;
+	font-family: montserrat;
+}
+/* Página QUIENES SOMOS */
+
+.quienes__p{
+	font-family: montserrat;
+	font-weight: 300;
+	padding: 20px;
+	font-size: 30px;
+}
+@media only screen and (max-width: 768px){
+.tamanoCarousel{
+	width: 300px;
+	margin: auto;
+}
+.parallax{
+padding-top: 40px;
+
+	 /* The image used */
+
+  background-image: url("../assets/img/Estudio.jpg");
+
+  /* Set a specific height */
+
+  height: 150px;
+
+  /* Create the parallax scrolling effect */
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+.tituloParallax{
+	font-family: oswald;
+	font-weight: 400;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	background-color: rgba(50,200,255,0.8);
+}
+
+
+.creemosEn{
+	font-family: montserrat;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+	
+
+}
+
+.listaCreemos{
+	padding: 0 20px;
+}
+
+.programasAval{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0 30px ;
+}
+.avales{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.imgAvales{
+	width: 200px;
+	align-items: center;
+	margin: 30px 0;
+
+}
+
+.paraQueSubtitulo{
+	text-align: center;
+	font-size: 18px;
+	padding: 0 30px;
+
+}
+.paraQueP{
+	text-align: center;
+	font-family: montserrat;
+	padding: 0 10px;
+}
+
+.tituloCreemos{
+	margin-top: 30px;
+	font-size: 22px;
+	background-color: #d6d6d6;
+	padding: 5px 0px;
+	text-align: center;
+}
+.creemosEn{
+	font-family: montserrat;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+	padding: 0 20px;
+
+}
+
+.tituloPaginas{
+	background-color: rgba(50,200,255,0.2);
+	padding: 5px 30px;
+	color:#1e0d3d;
+	font-weight: 100;
+	font-size: 30px;
+
+}
+
+}
+
+@media only screen and (min-width: 769px){
+	.quienes__vid{
+	width: 500px;
+	margin: auto;
+	padding: 15px 0;
+	
+}
+
+}
