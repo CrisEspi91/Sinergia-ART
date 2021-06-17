@@ -328,7 +328,11 @@ h6{
 	font-family: montserrat;
 	font-weight: 300;
 	padding: 20px;
-	font-size: 30px;
+	font-size: 18px;
+}
+.quienes__ul{
+	text-align: center;
+	padding: 0 30px;
 }
 @media only screen and (max-width: 768px){
 .tamanoCarousel{
@@ -446,4 +450,8 @@ padding-top: 40px;
 	
 }
 
+.quienes__ul{
+	text-align: left;
+	padding: 0 30px;
+}
 }
