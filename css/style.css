@@ -61,6 +61,30 @@ padding-top: 120px;
 
 }
 
+.parallax1{
+padding-top: 100px;
+
+
+	 /* The image used */
+
+  background-image: url("../assets/img/study.jpg");
+
+  /* Set a specific height */
+
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
 .tituloParallax{
 	font-family: oswald;
 	text-align: center;
@@ -72,66 +96,104 @@ padding-top: 120px;
 
 .tituloCreemos{
 	
-	font-size: 30px;
+	font-size: 35px;
 	background-color: #d6d6d6;
-	padding: 5px 0px;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	padding: 10px 0px;
 	text-align: center;
+	font-family: montserrat;
 }
 .creemosEn{
-	font-family: montserrat;
-	font-size: 18px;
+	font-family: spartan;
+	font-size: 28px;
 	text-align: center;
 	margin: auto;
 
-}
-
-.listaCreemos{
-	list-style-position: inside; 
-	text-align:center;
-	line-height: 1.8;
-	margin-top: 30px;
-
 
 }
+
+.creemosEn h3{
+	margin-top: 50px;
+}
+.creemos__p{
+	font-family: spartan;
+	font-size: 28px;
+	text-align: center;
+	margin: auto;
+	font-weight: 800;
+	padding: 0 60px;
+
+}
+
+
+
+
 
 .paraQueTitulo{
 	text-align: center;
 	background-color: #0b839c;
 	color: #fff;
-	padding: 5px 0px;
-	margin-top: 20px;
+	padding: 10px 0px;
+	margin-top: 120px;
+	margin-bottom: 30px;
 	width: 100%;
+	font-size: 35px;
+	font-family: montserrat;
 
 }
 
 .paraQueSubtitulo{
 	text-align: center;
 	padding: 0 20px;
+	font-family: montserrat;
+	font-weight: 1000;
 }
 .paraQueP{
 	text-align: center;
 	font-family: montserrat;
 	font-size: 20px;
 	padding: 0 30px;
+	font-weight: 300;
+}
+
+.spanP{
+	font-size: 22px;
+	color: #2f1a3b;
+	font-weight: 500;
+	font-family: overpass;
 }
 .iconosCoaching{
-	font-size: 50px;
+	font-size: 70px;
 	text-align: center;
-	color: #0b839c;
-}
-
-.cursosMasRecientes{
-	text-align: center;
-	background-color: #0b839c;
-	color: #fff;
-	padding: 5px 0px;
+	color: #2f1a3b;
 }
 
 
+.carousel__fondo{
+	position: absolute;
+	width: 100%;
+	margin-top: -30px;
+}
+
+.conoceFlex{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.conoceP{
+	font-family: monsterrat;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: -30px ;
+}
 .tamanoCarousel{
-	width: 500px;
-
+	width: 450px;
 	margin: auto;
+	align-items: center;
 }
 
 
@@ -143,6 +205,7 @@ padding-top: 120px;
 	color: white;
 	background-color: #0b839c;
 	padding: 6px 0px;
+
 }
 
 .botonConoce{
@@ -165,19 +228,25 @@ padding-top: 120px;
 
 .tituloMision{
 	margin: 0;
+	padding: 10px;
+	margin: 30px 0;
 }
 .fondoMision{
-	background-color:#e1fcf3;
 	margin: 0;
 }
-.listaMision{
-	padding: 20px 30px;
-	
-}
+
 
 .liMision{
-	font-weight: 900;
-	padding: 0 20px;
+	font-size: 22px;
+	font-weight: 500;
+	padding: 50px 10px;
+}
+
+.liSpan{
+	font-size: 28px;
+	color: #2f1a3b;
+	font-weight: 700;
+	font-family: overpass;
 }
 
 .programasAval{
@@ -199,31 +268,42 @@ padding-top: 120px;
 
 footer{
 	background-image: linear-gradient(#1e0d3d, black);
-	justify-content: space-between;
+	margin-top: 100px;
 
 }
 
-.botonFooter{
-	color: white;
-	border: solid 2px white;
-	border-radius: 40px;
-	transition-duration: 0.5s;
+.container__footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-.botonFooter:hover{
-	background-color: #0b839c ;
-}
+
 .copy{
 	color: #9e9e9e;
+	width: 250px;
 }
 
 .linkCopy{
 	color:#9486ad ;
+	text-align: center;
 }
 
 .linkCopy:hover{
 	text-decoration: none;
 	color: white;
+	transition-duration: 1s;
+
+}
+
+.diseñoP{
+	color: #595169;
+	width: 250px;
+	text-align: center;
+	font-size: 12px;
+
+
 }
 
 h5{
@@ -234,6 +314,29 @@ h6{
 	color: white;
 }
 
+.logo__footer{
+	width: 200px;
+}
+
+.footerInfo{
+	width: 200px;
+}
+.iconos{
+	display: flex;
+	justify-content: space-evenly;
+	width: 200px;
+}
+
+.iconosFooter{
+	color: #0b839c;
+	font-size: 25px;
+	width: 80px;
+	transition-duration: 1s;
+}
+
+.iconosFooter:hover {
+	color: #74cadb;
+}
 
 .tituloPaginas{
 	background-color: rgba(50,200,255,0.2);
@@ -307,6 +410,8 @@ h6{
 	padding: 8px;
 	font-family: oswald;
 	letter-spacing: 2px;
+	color: white;
+	border-radius: 20px;
 }
 
 
@@ -334,10 +439,59 @@ h6{
 	text-align: center;
 	padding: 0 30px;
 }
+
+/* Página BLOG */
+
+.flex__blog{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+.img__blog{
+	width: 500px;
+	border-radius: 10px;
+	margin: 50px 0px;
+
+
+}
+
+.titulo__blog{
+	font-family: montserrat;
+	font-size: 25px;
+	padding: 0px 50px ;
+	color: #0b839c ;
+
+
+}
+
+.autor__blog{
+	font-family: montserrat;
+	font-size: 20px;
+	padding: 10px 50px ;
+
+}
+
+.resumen__blog{
+	font-family: montserrat;
+	color: black;
+	font-weight: 300;
+	padding: 0px 50px ;
+}
+
+.leer__blog{
+	text-decoration: none;
+	color: #0b839c ;
+
+}
+
 @media only screen and (max-width: 768px){
 .tamanoCarousel{
 	width: 300px;
 	margin: auto;
+}
+.carousel__fondo{
+	display: none;
 }
 .parallax{
 padding-top: 40px;
@@ -370,21 +524,32 @@ padding-top: 40px;
 	color: #fff;
 	background-color: rgba(50,200,255,0.8);
 }
+.paraQueTitulo{
+	font-size: 24px;
+	padding: 5px;
+}
 
-
-.creemosEn{
-	font-family: montserrat;
-	padding: 0;
-	font-size: 18px;
+.tituloCreemos{
+	padding: 70px;
+	font-size: 24px;
+}
+.creemos__p{
+	font-family: spartan;
+	font-size: 20px;
 	text-align: center;
-	
+	margin: auto;
+	font-weight: 100;
+	padding: 0 10px;
 
 }
 
-.listaCreemos{
-	padding: 0 20px;
+.conoceP{
+	font-family: monsterrat;
+	font-size: 20px;
+	padding: 0 10px;
+	color: white;
+	text-align: center;
 }
-
 .programasAval{
 	display: flex;
 	justify-content: center;
@@ -440,6 +605,117 @@ padding-top: 40px;
 
 }
 
+.container__footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+
+.copy{
+	color: #9e9e9e;
+	width: 150px;
+}
+
+.linkCopy{
+	color:#9486ad ;
+	text-align: center;
+}
+
+.diseñoP{
+	color: #595169;
+	width: 150px;
+	text-align: center;
+	font-size: 12px;
+
+
+}
+
+.iconos{
+	display: flex;
+	justify-content: space-evenly;
+	width: 150px;
+}
+
+.tituloMision{
+	padding: 5px 10px;
+}
+
+
+.titulo__blog{
+	font-family: montserrat;
+	font-size: 25px;
+	padding: 0px 10px ;
+	color: #0b839c ;
+
+
+}
+
+.autor__blog{
+	font-family: montserrat;
+	font-size: 20px;
+	padding: 10px 10px ;
+
+}
+
+.resumen__blog{
+	font-family: montserrat;
+	color: black;
+	font-weight: 300;
+	padding: 0px 10px ;
+}
+
+.leer__blog{
+	text-decoration: none;
+	color: #0b839c ;
+
+}
+
+
+.logo__footer{
+	margin: 20px 0;
+	width: 200px;
+
+}
+
+.footerInfo{
+display: flex;
+justify-content: center;
+}
+.iconos{
+	display: flex;
+	justify-content: space-evenly;
+	width: 200px;
+}
+
+.iconosFooter{
+	color: #0b839c;
+	font-size: 25px;
+	width: 80px;
+	transition-duration: 1s;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.iconosFooter:hover {
+	color: #74cadb;
+}
+
+.tituloPaginas{
+	background-color: rgba(50,200,255,0.2);
+	padding: 5px 30px;
+	color:#1e0d3d;
+	font-weight: 100;
+	font-size: 35px;
+
+}
+.linkCopy{
+	
+	width: 200px;
+	text-align: center;
+}
 }
 
 @media only screen and (min-width: 769px){
